@@ -3,19 +3,22 @@ Pace Android Class
 
 * Android Studio
 * Includes up to L and M
+* Material Design
+* Gradle
 
 
 An Introduction to the Android OS and exploring the Android SDK and Tools
 ---
 * Android and its history, the Open Handset Alliance and the Android Open Source
 Project
-* Overview of Android OS architecture and internals, the Dalvik VM
+* Overview of Android OS architecture and internals, the Dalvik VM and its Evolution
 * Overview of required Java concepts and libraries and key concepts of mobile device
 development
 * Overview of the Android platform components (the key classes and UI
 components)
-* The Android SDK Installation, and Android Tools overview
-* Developing your first application in Eclipse
+* Android Studio overview
+* Gradle
+* Android Design Patterns
 
 Layouts, the Activity life cycle, Intents and Intent Filters
 ---
@@ -55,15 +58,16 @@ Graphics with Canvas and OpenGL ES, Animation
 * Drawing with Canvas, using Drawables
 * An OpenGL ES Overview: for both 2D and 3D
 * Case Study in writing a OpenGL game
-* Animation with Android, Renderscript
+* Animation with Android, Full Game Developed.
 
 Sensors, Location, Receivers (SMS), Telephony and Networking APIs
 ---
-* Sensors, including gyroscope, compass, proximity
+* Sensors, including accelerometer
 * Using Location APIs Effectively: GPS, WiFi
 * Broadcast Receivers: example SMS message handling
 * Telephony APIs
 * Networking: Web services and RSS: XML and JSON parsing examples
+* BOLTS and VOLLEY
 
 Media: playing, streaming and recording audio and video.
 ---
@@ -75,7 +79,7 @@ Media: playing, streaming and recording audio and video.
 Live widgets, Bluetooth, Gestures and Speech, Maps and WebView
 ---
 * App Widgets and Live Folders and Live Wallpapers
-* Using the Bluetooth API
+* Using the Bluetooth API and BLE
 * Gestures, Text-to-Speech and Speech Recognition
 * An intro to the Google Maps API
 * The Webkit View
@@ -83,10 +87,9 @@ Live widgets, Bluetooth, Gestures and Speech, Maps and WebView
 Android Development for Tablets and Additional APIs
 ---
 * Designing for tablets: Fragments
-* Using C2D (Cloud to Device), Device Administration
+* Using C2DM (Cloud to Device Messaging), Device Administration
 * Data binding and Content providers)
 * Additional APIs Coverage (new APIs from latest releases)
-* How to leverage upcoming APIs from AOSP (Android Open Source Project)
 
 Best Practices and Testing
 ---
@@ -94,16 +97,6 @@ Best Practices and Testing
 * Android Best Practices: Profiling for performance, responsiveness and seamlessness
 * Maintaining backwards compatibility
 * Bullet proofing your application: top causes of FCs (Force Closes)
-* Using StrictMode (new in 2.3) to strengthen your apps (even 1.5 apps)
-* Testing Frameworks: including the Instrumentation APIs for Unit testing and 3rd
-Party Frameworks
-
-Securing your Android Application
----
-* All about piracy and decompilation
-* Obfuscating with Proguard
-* Using Google's LVL (License Verification Library) API
-* Additional techniques and adding your own license verification.
 
 Selling, Measuring and Promoting your Application on the Market
 ---
